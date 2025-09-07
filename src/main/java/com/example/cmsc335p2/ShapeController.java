@@ -221,7 +221,7 @@ public class ShapeController implements Initializable {
         info.append("Shape Information:\n");
         info.append("==================\n\n");
         info.append("Type: ").append(currentShape.getName()).append("\n");
-        info.append("Color: ").append(currentShape.getColor()).append("\n");
+//        info.append("Color: ").append(currentShape.getColor()).append("\n");
         info.append("Dimensions: ").append(currentShape.getNumberOfDimensions()).append("D\n\n");
 
         if (currentShape.getNumberOfDimensions() == 2) {

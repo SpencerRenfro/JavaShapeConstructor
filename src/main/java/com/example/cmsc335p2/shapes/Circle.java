@@ -36,14 +36,7 @@ public class Circle extends TwoDimensionalShape {
     public double calculateArea() {
         return Math.PI * radius * radius;
     }
-    
-    /**
-     * Calculate the circumference of the circle
-     * @return The circumference
-     */
-    public double calculateCircumference() {
-        return 2 * Math.PI * radius;
-    }
+
     
     @Override
     public String toString() {

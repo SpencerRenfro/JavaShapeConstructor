@@ -31,39 +31,13 @@ public abstract class Shape {
     public String getName() {
         return name;
     }
-    
-    /**
-     * Set the name of the shape
-     * @param name The shape name
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
-    
-    /**
-     * Get the color of the shape
-     * @return The shape color
-     */
-    public String getColor() {
-        return color;
-    }
-    
-    /**
-     * Set the color of the shape
-     * @param color The shape color
-     */
-    public void setColor(String color) {
-        this.color = color;
-    }
+
+
     
     /**
      * Get the number of dimensions (2D or 3D)
      * @return Number of dimensions
      */
     public abstract int getNumberOfDimensions();
-    
-    @Override
-    public String toString() {
-        return String.format("%s (Color: %s, Area: %.2f)", name, color, calculateArea());
-    }
+
 }
