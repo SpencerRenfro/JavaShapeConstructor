@@ -1,3 +1,9 @@
+/**
+ * FileName: ShapeRenderer.java
+ * Date: September 7, 2025
+ * Author: Spencer Renfro
+ * Purpose: Utility class for rendering both 2D and 3D shapes onto a JavaFX Canvas.
+*/
 package com.example.cmsc335p2;
 
 import com.example.cmsc335p2.shapes.*;

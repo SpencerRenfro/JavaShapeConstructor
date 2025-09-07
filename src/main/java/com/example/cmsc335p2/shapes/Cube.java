@@ -15,16 +15,7 @@ public class Cube extends ThreeDimensionalShape {
         this.side = side;
     }
     
-    /**
-     * Constructor for Cube with color
-     * @param side The side length of the cube
-     * @param color The color of the cube
-     */
-    public Cube(double side, String color) {
-        super("Cube", color);
-        this.side = side;
-    }
-    
+
     /**
      * Get the side length of the cube
      * @return The side length

@@ -18,17 +18,7 @@ public class Triangle extends TwoDimensionalShape {
         this.height = height;
     }
     
-    /**
-     * Constructor for Triangle with color
-     * @param base The base of the triangle
-     * @param height The height of the triangle
-     * @param color The color of the triangle
-     */
-    public Triangle(double base, double height, String color) {
-        super("Triangle", color);
-        this.base = base;
-        this.height = height;
-    }
+
     
     /**
      * Get the base of the triangle

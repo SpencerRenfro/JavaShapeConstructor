@@ -18,17 +18,7 @@ public class Rectangle extends TwoDimensionalShape {
         this.height = height;
     }
     
-    /**
-     * Constructor for Rectangle with color
-     * @param width The width of the rectangle
-     * @param height The height of the rectangle
-     * @param color The color of the rectangle
-     */
-    public Rectangle(double width, double height, String color) {
-        super("Rectangle", color);
-        this.width = width;
-        this.height = height;
-    }
+
     
     /**
      * Get the width of the rectangle

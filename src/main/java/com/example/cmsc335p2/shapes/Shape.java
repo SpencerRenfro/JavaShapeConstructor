@@ -17,16 +17,7 @@ public abstract class Shape {
         this.color = "Blue"; // Default color
     }
     
-    /**
-     * Constructor for Shape with color
-     * @param name The name of the shape
-     * @param color The color of the shape
-     */
-    public Shape(String name, String color) {
-        this.name = name;
-        this.color = color;
-    }
-    
+
     /**
      * Abstract method to calculate area - must be implemented by subclasses
      * @return The area of the shape

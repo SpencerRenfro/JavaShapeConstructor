@@ -18,17 +18,7 @@ public class Cylinder extends ThreeDimensionalShape {
         this.height = height;
     }
     
-    /**
-     * Constructor for Cylinder with color
-     * @param radius The radius of the cylinder base
-     * @param height The height of the cylinder
-     * @param color The color of the cylinder
-     */
-    public Cylinder(double radius, double height, String color) {
-        super("Cylinder", color);
-        this.radius = radius;
-        this.height = height;
-    }
+
     
     /**
      * Get the radius of the cylinder

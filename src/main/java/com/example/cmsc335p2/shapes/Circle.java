@@ -15,16 +15,7 @@ public class Circle extends TwoDimensionalShape {
         this.radius = radius;
     }
     
-    /**
-     * Constructor for Circle with color
-     * @param radius The radius of the circle
-     * @param color The color of the circle
-     */
-    public Circle(double radius, String color) {
-        super("Circle", color);
-        this.radius = radius;
-    }
-    
+
     /**
      * Get the radius of the circle
      * @return The radius

@@ -17,18 +17,7 @@ public class Torus extends ThreeDimensionalShape {
         this.majorRadius = majorRadius;
         this.minorRadius = minorRadius;
     }
-    
-    /**
-     * Constructor for Torus with color
-     * @param majorRadius The major radius (distance from center to tube center)
-     * @param minorRadius The minor radius (tube radius)
-     * @param color The color of the torus
-     */
-    public Torus(double majorRadius, double minorRadius, String color) {
-        super("Torus", color);
-        this.majorRadius = majorRadius;
-        this.minorRadius = minorRadius;
-    }
+
     
     /**
      * Get the major radius of the torus

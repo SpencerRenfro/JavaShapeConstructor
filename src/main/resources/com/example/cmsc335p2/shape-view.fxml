@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  FileName: shape-view.fxml
+  Date: September 7, 2025
+  Author: Spencer Renfro
+  Purpose: This is the FXML file for the shape-view This file defines the user interface for the shape-view.
+-->
+
+
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.canvas.Canvas?>

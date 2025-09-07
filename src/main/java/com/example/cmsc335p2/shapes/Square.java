@@ -15,15 +15,7 @@ public class Square extends TwoDimensionalShape {
         this.side = side;
     }
     
-    /**
-     * Constructor for Square with color
-     * @param side The side length of the square
-     * @param color The color of the square
-     */
-    public Square(double side, String color) {
-        super("Square", color);
-        this.side = side;
-    }
+
     
     /**
      * Get the side length of the square

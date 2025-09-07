@@ -12,15 +12,7 @@ public abstract class TwoDimensionalShape extends Shape {
     public TwoDimensionalShape(String name) {
         super(name);
     }
-    
-    /**
-     * Constructor for TwoDimensionalShape with color
-     * @param name The name of the shape
-     * @param color The color of the shape
-     */
-    public TwoDimensionalShape(String name, String color) {
-        super(name, color);
-    }
+
     
     @Override
     public int getNumberOfDimensions() {

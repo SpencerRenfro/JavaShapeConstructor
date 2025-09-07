@@ -18,17 +18,7 @@ public class Cone extends ThreeDimensionalShape {
         this.height = height;
     }
     
-    /**
-     * Constructor for Cone with color
-     * @param radius The radius of the cone base
-     * @param height The height of the cone
-     * @param color The color of the cone
-     */
-    public Cone(double radius, double height, String color) {
-        super("Cone", color);
-        this.radius = radius;
-        this.height = height;
-    }
+
     
     /**
      * Get the radius of the cone

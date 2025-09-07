@@ -13,14 +13,7 @@ public abstract class ThreeDimensionalShape extends Shape {
         super(name);
     }
     
-    /**
-     * Constructor for ThreeDimensionalShape with color
-     * @param name The name of the shape
-     * @param color The color of the shape
-     */
-    public ThreeDimensionalShape(String name, String color) {
-        super(name, color);
-    }
+
     
     @Override
     public int getNumberOfDimensions() {

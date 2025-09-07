@@ -1,3 +1,11 @@
+/**
+ * FileName: ShapeController.java
+ * Date: September 7, 2025
+ * Author: Spencer Renfro
+ * Purpose: The controller for the shape-view.fxml file. This handles all user interaction with the GUI.
+ */
+
+
 package com.example.cmsc335p2;
 
 import com.example.cmsc335p2.shapes.Shape;
@@ -136,7 +144,7 @@ public class ShapeController implements Initializable {
     private void onCreateShapeClick() {
         try {
             String shapeType = shapeComboBox.getValue();
-            String color = "Blue"; // Hard-coded to blue
+
 
             if (shapeType == null) {
                 showAlert("Please select a shape type.");

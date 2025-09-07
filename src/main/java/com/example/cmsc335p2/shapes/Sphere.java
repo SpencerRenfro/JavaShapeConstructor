@@ -15,15 +15,7 @@ public class Sphere extends ThreeDimensionalShape {
         this.radius = radius;
     }
     
-    /**
-     * Constructor for Sphere with color
-     * @param radius The radius of the sphere
-     * @param color The color of the sphere
-     */
-    public Sphere(double radius, String color) {
-        super("Sphere", color);
-        this.radius = radius;
-    }
+
     
     /**
      * Get the radius of the sphere

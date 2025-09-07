@@ -1,3 +1,10 @@
+/**
+ * FileName: ShapeFactory.java
+ * Date: September 7, 2025
+ * Author: Spencer Renfro
+ * Purpose: This is a factory class that creates shape objects based on the type of shape and the dimensions provided.
+ */
+
 package com.example.cmsc335p2;
 
 import com.example.cmsc335p2.shapes.*;
@@ -11,30 +18,30 @@ public class ShapeFactory {
     /**
      * Create a shape based on type and dimensions
      * @param shapeType The type of shape to create
-     * @param dimensions Array of dimensions (varies by shape)
+     * @param dimensions Array of dimensions
      * @return The created shape instance
      */
     public static Shape createShape(String shapeType, double[] dimensions) {
         String color = "Blue"; // Default color
         switch (shapeType.toLowerCase()) {
             case "circle":
-                return new Circle(dimensions[0], color);
+                return new Circle(dimensions[0]);
             case "square":
-                return new Square(dimensions[0], color);
+                return new Square(dimensions[0]);
             case "triangle":
-                return new Triangle(dimensions[0], dimensions[1], color);
+                return new Triangle(dimensions[0], dimensions[1]);
             case "rectangle":
-                return new Rectangle(dimensions[0], dimensions[1], color);
+                return new Rectangle(dimensions[0], dimensions[1]);
             case "sphere":
-                return new Sphere(dimensions[0], color);
+                return new Sphere(dimensions[0]);
             case "cube":
-                return new Cube(dimensions[0], color);
+                return new Cube(dimensions[0]);
             case "cone":
-                return new Cone(dimensions[0], dimensions[1], color);
+                return new Cone(dimensions[0], dimensions[1]);
             case "cylinder":
-                return new Cylinder(dimensions[0], dimensions[1], color);
+                return new Cylinder(dimensions[0], dimensions[1]);
             case "torus":
-                return new Torus(dimensions[0], dimensions[1], color);
+                return new Torus(dimensions[0], dimensions[1]);
             default:
                 return null;
         }
