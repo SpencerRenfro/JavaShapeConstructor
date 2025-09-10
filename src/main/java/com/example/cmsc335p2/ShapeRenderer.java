@@ -24,7 +24,6 @@ public class ShapeRenderer {
      * Render a shape on the given graphics context
      */
     public static void renderShape(GraphicsContext gc, Shape shape, double centerX, double centerY) {
-        gc.setFill(BLUE);
         gc.setStroke(Color.BLACK);
         gc.setLineWidth(2);
 
