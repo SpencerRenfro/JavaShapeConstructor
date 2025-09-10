@@ -1,8 +1,8 @@
 /**
  * FileName: HelloApplication.java
  * Date: September 7, 2025
- * Author
- * Purpose: Initializes the JavaFX application and loads the main view
+ * Author: Spencer Renfro
+ * Purpose: Main application class that starts the JavaFX GUI
  */
 
 

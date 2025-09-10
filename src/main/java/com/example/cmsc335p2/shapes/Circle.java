@@ -37,10 +37,4 @@ public class Circle extends TwoDimensionalShape {
         return Math.PI * radius * radius;
     }
 
-    
-    @Override
-    public String toString() {
-        return String.format("Circle (Radius: %.2f, Color: %s, Area: %.2f)", 
-                           radius, color, calculateArea());
-    }
 }

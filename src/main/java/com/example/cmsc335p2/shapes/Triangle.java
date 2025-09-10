@@ -6,7 +6,7 @@ package com.example.cmsc335p2.shapes;
 public class Triangle extends TwoDimensionalShape {
     private double base;
     private double height;
-    
+
     /**
      * Constructor for Triangle
      * @param base The base of the triangle
@@ -17,9 +17,9 @@ public class Triangle extends TwoDimensionalShape {
         this.base = base;
         this.height = height;
     }
-    
 
-    
+
+
     /**
      * Get the base of the triangle
      * @return The base
@@ -27,7 +27,7 @@ public class Triangle extends TwoDimensionalShape {
     public double getBase() {
         return base;
     }
-    
+
     /**
      * Set the base of the triangle
      * @param base The base
@@ -35,7 +35,7 @@ public class Triangle extends TwoDimensionalShape {
     public void setBase(double base) {
         this.base = base;
     }
-    
+
     /**
      * Get the height of the triangle
      * @return The height
@@ -43,7 +43,7 @@ public class Triangle extends TwoDimensionalShape {
     public double getHeight() {
         return height;
     }
-    
+
     /**
      * Set the height of the triangle
      * @param height The height
@@ -51,15 +51,11 @@ public class Triangle extends TwoDimensionalShape {
     public void setHeight(double height) {
         this.height = height;
     }
-    
+
     @Override
     public double calculateArea() {
         return 0.5 * base * height;
     }
-    
-    @Override
-    public String toString() {
-        return String.format("Triangle (Base: %.2f, Height: %.2f, Color: %s, Area: %.2f)", 
-                           base, height, color, calculateArea());
-    }
+
+
 }
